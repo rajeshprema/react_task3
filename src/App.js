@@ -1,26 +1,25 @@
-import Header from './Component/Header/header';
-import Layout from './Component/Layout/layout'
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Dashboard from
 
-//npm i --save @fortawesome/fontawesome-svg-core
-//npm install --save @fortawesome/free-solid-svg-icons
-//npm install --save @fortawesome/react-fontawesome
-
-
-function App() {
+  function App() {
+    return (
 
 
+      <div className="App">
 
-  return (
-    <div className="App">
-      <Header />
-      <Layout />
-      
-       
-    </div>
-  );
-}
+
+      </div>
+  )
+  }
 
 export default App;
+
+// db.products.find({
+//   $and: [
+//     { color: "indigo" },
+//     { price: 492.00 }
+//   ]
+// })
+// https://mockapi.io/
  
